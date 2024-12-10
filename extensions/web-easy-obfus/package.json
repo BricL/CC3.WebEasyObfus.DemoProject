@@ -21,6 +21,7 @@
     "devDependencies": {
         "@cocos/creator-types": "^3.8.3",
         "@types/fs-extra": "^5.0.4",
-        "@types/node": "^18.17.1"
+        "@types/node": "^18.17.1",
+        "javascript-obfuscator": "^4.1.1"
     }
 }

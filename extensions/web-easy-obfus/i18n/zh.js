@@ -1,1 +1,16 @@
-module.exports={title:"构建插件示例",ruleTest_msg:"填写字段不满足规则，请输入 'cocos'",options:{enterCocos:"请输入 'cocos' 字符 ",remoteAddress:"资源服务地址",selectTest:"select 选项测试",selectTestOption1:"选项 （1）",selectTestOption2:"选项 （2）",objectTest:"Object 复合类型配置示例",arrayTest:"Array 复合类型配置示例",complexTestNumber:"Number",complexTestBoolean:"Boolean",complexTestString:"String"},description:"构建插件的一个简单示例"};
+module.exports = {
+    title: "Web Easy Obfus",
+    description: "混淆項目代码就这样简单!",
+    options: {
+        enable: "启用",
+        selectObfusLevel: "选择混淆等级",
+        selectObfusLevelDescription: "",
+        selectObfusLevelOptions: {
+            option0: "基础",
+            option1: "标准",
+            option2: "增强",
+            option3: "安全",
+            option4: "极致",
+        }
+    },
+};
