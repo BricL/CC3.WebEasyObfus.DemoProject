@@ -27,16 +27,8 @@ export interface ICustomPanelThis extends IPanelThis {
 }
 
 export interface IOptions {
-    remoteAddress: string;
-    enterCocos: string;
-    selectTest: string;
-    objectTest: {
-        number: number;
-        string: string;
-        boolean: boolean
-    },
-    arrayTest: [number, string, boolean];
-    webTestOption: boolean;
+    enable: boolean;
+    selectObfusLevel: string;
 }
 
 export interface ITaskOptions extends IBuildTaskOption {
