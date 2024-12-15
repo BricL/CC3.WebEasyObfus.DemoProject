@@ -1,0 +1,3 @@
+[submodule "extensions/web-easy-obfus"]
+	path = extensions/web-easy-obfus
+	url = https://github.com/BricL/CC3.WebEasyObfus.git
